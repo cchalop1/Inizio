@@ -2,11 +2,18 @@
   "name": "@inizio/assets",
   "version": "1.0.0",
   "description": "",
-  "scripts": {},
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm clean && tsc",
+    "clean": "rm -rf *.js *.js.map"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@inizio/types": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
   }
 }

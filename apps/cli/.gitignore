@@ -1,0 +1,29 @@
+# Dependency directories
+node_modules/
+
+# Environment configuration
+.env
+
+# Build output
+build/
+dist/
+out/
+
+# Logs and runtime data
+logs/
+*.log
+
+# IDE-specific files (for example, Visual Studio Code)
+.vscode/
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Editor specific files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

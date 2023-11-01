@@ -1,6 +1,6 @@
 import { DevContainerImage } from "@inizio/types/devContainerImage";
 
-const images: DevContainerImage[] = [
+export const images: DevContainerImage[] = [
   {
     image: "mcr.microsoft.com/devcontainers/typescript-node",
     name: "node",
@@ -26,5 +26,3 @@ const images: DevContainerImage[] = [
     name: "python",
   },
 ];
-
-export default images;

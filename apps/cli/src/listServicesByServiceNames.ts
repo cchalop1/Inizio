@@ -1,6 +1,6 @@
 import { DevcontainerService } from '@inizio/types/types';
-import listServices from '@inizio/assets/list-services';
+import { services } from '@inizio/assets/src/list-services';
 
 export function listServicesByServiceNames(servicesToKeep: string[]): DevcontainerService[] {
-  return listServices.filter((s) => servicesToKeep.includes(s.name));
+  return services.filter((s) => servicesToKeep.includes(s.name));
 }

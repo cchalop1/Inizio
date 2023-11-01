@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
-    "target": "es2017",
-    "module": "commonjs",
+    "target": "ES2022",
+    "module": "NodeNext",
     "lib": ["dom", "es6", "es2017", "esnext.asynciterable"],
     "skipLibCheck": true,
     "sourceMap": true,
-    "outDir": "./",
-    "moduleResolution": "node",
+    "outDir": "dist",
+    "rootDir": "src",
+    "moduleResolution": "NodeNext",
     "removeComments": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -20,8 +21,7 @@
     "esModuleInterop": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "resolveJsonModule": true,
-    "baseUrl": "."
+    "resolveJsonModule": true
   },
   "exclude": ["node_modules"],
   "include": ["./**/*.ts"]

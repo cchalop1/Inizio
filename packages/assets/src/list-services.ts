@@ -1,6 +1,6 @@
 import { DevcontainerService } from "@inizio/types/types";
 
-const services: DevcontainerService[] = [
+export const services: DevcontainerService[] = [
   {
     icon: "postgres.png",
     name: "postgres",
@@ -42,5 +42,3 @@ const services: DevcontainerService[] = [
     volume: "/opt/jboss/keycloak/standalone/data",
   },
 ];
-
-export default services;

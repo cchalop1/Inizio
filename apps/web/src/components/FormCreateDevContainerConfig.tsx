@@ -1,6 +1,6 @@
 import Checkbox from "../ui/Checkbox";
-import listService from "@inizio/assets/list-services";
-import listImages from "@inizio/assets/list-images";
+import { services } from "@inizio/assets/src/list-services";
+import { images } from "@inizio/assets/src/list-images";
 import SubTitle from "../ui/SubTitle";
 import { CreateDevContainerConfigDto } from "@inizio/types/devContainerConfig";
 
@@ -16,7 +16,7 @@ function FormCreateDevContainerConfig({
   function onCheckDockerfileExist(isChecked: boolean) {
     setConfigDevContainer({
       ...configDevContainer,
-      devContainerImage: isChecked ? undefined : listImages[0].name,
+      devContainerImage: isChecked ? undefined : images[0].name,
     });
   }
 
@@ -52,7 +52,7 @@ function FormCreateDevContainerConfig({
             defaultValue={configDevContainer.devContainerImage}
             onChange={(e) => onSelectDevContinerImage(e.target.value)}
           >
-            {listImages.map((image) => (
+            {images.map((image) => (
               <option key={image.name} value={image.name}>
                 {image.name}
               </option>
@@ -61,7 +61,7 @@ function FormCreateDevContainerConfig({
         </div>
       )}
       <SubTitle>Select one or multiple services</SubTitle>
-      {listService.map((service) => (
+      {services.map((service) => (
         <div key={service.name} className="flex items-center">
           <Checkbox
             id={service.name}

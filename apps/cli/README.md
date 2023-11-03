@@ -6,13 +6,13 @@ The objective with Inizio is to offload all the writing of configuration files f
 for example if you quickly want a node js environment with a postgres database you can write this:
 
 ```bash
-npx @cchalop1/inizio --devContainerImage node -service postgres
+npx @inizio/cli --devContainerImage node -service postgres
 ```
 
 To install inizio:
 
 ```bash
-npm install -g @cchalop1/inizio
+npm install -g @inizio/cli
 
 ```
 

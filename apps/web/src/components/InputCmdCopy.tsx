@@ -36,7 +36,7 @@ function InputCmdCopy({ configDevContainer }: InputCmdCopyProps) {
         className="relative m-auto mt-10 mb-10 w-1/3 border-2 border-violet-600 rounded-lg p-2.5 flex justify-between cursor-text"
       >
         {isCopied && (
-          <div className="absolute -translate-y-10 translate-x-full">
+          <div className="absolute -translate-y-10 translate-x-1/2">
             Copied to clibboard
           </div>
         )}

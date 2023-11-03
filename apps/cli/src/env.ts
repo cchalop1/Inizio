@@ -1,4 +1,4 @@
-import { DevcontainerService, EnvVar } from '@inizio/types/types';
+import { DevcontainerService, EnvVar } from './types/types';
 import { randomString } from './utils';
 
 export function createEnvsForService(service: DevcontainerService): EnvVar[] {

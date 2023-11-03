@@ -1,7 +1,7 @@
 import { mkdirSync, writeFileSync, rmSync } from 'fs';
 import yaml from 'yaml';
 
-import { DockerComposeConfig, EnvVar } from '@inizio/types/types';
+import { DockerComposeConfig, EnvVar } from './types/types';
 import { listServicesByServiceNames } from './listServicesByServiceNames';
 import { createEnvsForService } from './env';
 

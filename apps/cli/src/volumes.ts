@@ -1,4 +1,4 @@
-import { DevcontainerService, Volume } from '@inizio/types/types';
+import { DevcontainerService, Volume } from './types/types';
 
 export function generateVolumesConfig(services: DevcontainerService[]): Volume[] {
   return services

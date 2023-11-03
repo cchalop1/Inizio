@@ -1,6 +1,6 @@
-import { CreateDevContainerConfigDto } from '@inizio/types/devContainerConfig';
+import { CreateDevContainerConfigDto } from './types/devContainerConfig';
 import { listServicesByServiceNames } from './listServicesByServiceNames';
-import { DevcontainerService, Service, DockerComposeConfig, Volume } from '@inizio/types/types';
+import { DevcontainerService, Service, DockerComposeConfig, Volume } from './types/types';
 import { generateVolumesConfig } from './volumes';
 import { findDevContainerImage } from './images';
 

@@ -10,7 +10,7 @@
     "build:assets": "pnpm run --filter @inizio/assets build",
     "build": "pnpm run build:assets && pnpm run build:cli && pnpm run build:web",
     "clean": "pnpm run --filter @inizio/assets clean && pnpm run --filter @cchalop1/inizio clean && pnpm run --filter @cchalop1/inizio/web clean",
-    "publish:cli": "pnpm run --filter @cchalop1/inizio publish "
+    "publish:cli": "pnpm run --filter @cchalop1/inizio publish"
   },
   "keywords": [],
   "author": "",

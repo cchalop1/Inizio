@@ -1,5 +1,5 @@
 {
-  "name": "@inizio/web",
+  "name": "@cchalop1/inizio/web",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,7 +12,7 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@inizio/cli": "workspace:*"
+    "@cchalop1/inizio": "workspace:*"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

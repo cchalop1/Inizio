@@ -2,8 +2,8 @@ import { useState } from "react";
 import FormCreateDevContainerConfig from "./components/FormCreateDevContainerConfig";
 import InputCmdCopy from "./components/InputCmdCopy";
 import Logo from "./components/Logo";
-import { CreateDevContainerConfigDto } from "@inizio/cli/src/types/devContainerConfig";
-import { images } from "@inizio/cli/src/assets/list-images";
+import { CreateDevContainerConfigDto } from "@cchalop1/inizio/src/types/devContainerConfig";
+import { images } from "@cchalop1/inizio/src/assets/list-images";
 
 function App() {
   const [configDevContainer, setConfigDevContainer] =

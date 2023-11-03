@@ -1,8 +1,8 @@
 import Checkbox from "../ui/Checkbox";
-import { services } from "@inizio/cli/src/assets/list-services";
-import { images } from "@inizio/cli/src/assets/list-images";
+import { services } from "@cchalop1/inizio/src/assets/list-services";
+import { images } from "@cchalop1/inizio/src/assets/list-images";
 import SubTitle from "../ui/SubTitle";
-import { CreateDevContainerConfigDto } from "@inizio/cli/src/types/devContainerConfig";
+import { CreateDevContainerConfigDto } from "@cchalop1/inizio/src/types/devContainerConfig";
 
 type FormCreateDevContainerConfigProps = {
   configDevContainer: CreateDevContainerConfigDto;

@@ -1,6 +1,6 @@
 {
-  "name": "@inizio/cli",
-  "version": "0.0.1",
+  "name": "@cchalop1/inizio",
+  "version": "0.0.6",
   "description": "",
   "bin": "./dist/index.js",
   "repository": {
@@ -15,7 +15,8 @@
     "build": "tsc && echo '#!/usr/bin/env node' | cat - dist/index.js > temp && mv temp dist/index.js",
     "format": "prettier --write \"src/**/*.ts\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "publish": "pnpm publish --access public"
   },
   "author": "cchalop1",
   "license": "ISC",

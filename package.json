@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "Inizio mono repo",
   "scripts": {
-    "dev:web": "pnpm run --filter @inizio/web dev",
-    "dev:cli": "pnpm run --filter @inizio/cli dev",
-    "build:cli": "pnpm run --filter @inizio/cli build",
-    "build:web": "pnpm run --filter @inizio/web build",
+    "dev:web": "pnpm run --filter @cchalop1/inizio/web dev",
+    "dev:cli": "pnpm run --filter @cchalop1/inizio dev",
+    "build:cli": "pnpm run --filter @cchalop1/inizio build",
+    "build:web": "pnpm run --filter @cchalop1/inizio/web build",
     "build:assets": "pnpm run --filter @inizio/assets build",
     "build": "pnpm run build:assets && pnpm run build:cli && pnpm run build:web",
-    "clean": "pnpm run --filter @inizio/assets clean && pnpm run --filter @inizio/cli clean && pnpm run --filter @inizio/web clean",
-    "publish:cli": ""
+    "clean": "pnpm run --filter @inizio/assets clean && pnpm run --filter @cchalop1/inizio clean && pnpm run --filter @cchalop1/inizio/web clean",
+    "publish:cli": "pnpm run --filter @cchalop1/inizio publish "
   },
   "keywords": [],
   "author": "",

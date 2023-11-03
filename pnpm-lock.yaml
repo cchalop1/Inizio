@@ -47,7 +47,7 @@ importers:
 
   apps/web:
     dependencies:
-      '@inizio/cli':
+      '@cchalop1/inizio':
         specifier: workspace:*
         version: link:../cli
       react:

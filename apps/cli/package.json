@@ -1,6 +1,6 @@
 {
   "name": "@inizio/cli",
-  "version": "0.0.5",
+  "version": "0.0.1",
   "description": "",
   "bin": "./dist/index.js",
   "repository": {

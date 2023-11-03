@@ -2,7 +2,7 @@ import Checkbox from "../ui/Checkbox";
 import { services } from "@inizio/cli/src/assets/list-services";
 import { images } from "@inizio/cli/src/assets/list-images";
 import SubTitle from "../ui/SubTitle";
-import { CreateDevContainerConfigDto } from "@inizio/types/devContainerConfig";
+import { CreateDevContainerConfigDto } from "@inizio/cli/src/types/devContainerConfig";
 
 type FormCreateDevContainerConfigProps = {
   configDevContainer: CreateDevContainerConfigDto;

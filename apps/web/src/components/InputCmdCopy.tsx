@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { CreateDevContainerConfigDto } from "@inizio/types/devContainerConfig";
+import { CreateDevContainerConfigDto } from "@inizio/cli/src/types/devContainerConfig";
 
 type InputCmdCopyProps = {
   configDevContainer: CreateDevContainerConfigDto;

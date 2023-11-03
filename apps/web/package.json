@@ -12,8 +12,7 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@inizio/cli": "workspace:*",
-    "@inizio/types": "workspace:*"
+    "@inizio/cli": "workspace:*"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

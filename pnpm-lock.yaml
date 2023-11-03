@@ -10,9 +10,6 @@ importers:
 
   apps/cli:
     dependencies:
-      '@inizio/types':
-        specifier: workspace:*
-        version: link:../../packages/types
       arg:
         specifier: ^5.0.2
         version: 5.0.2
@@ -53,9 +50,6 @@ importers:
       '@inizio/cli':
         specifier: workspace:*
         version: link:../cli
-      '@inizio/types':
-        specifier: workspace:*
-        version: link:../../packages/types
       react:
         specifier: ^18.2.0
         version: 18.2.0
@@ -102,8 +96,6 @@ importers:
       vite:
         specifier: ^4.4.5
         version: 4.5.0
-
-  packages/types: {}
 
 packages:
 

@@ -2,7 +2,7 @@ import { useState } from "react";
 import FormCreateDevContainerConfig from "./components/FormCreateDevContainerConfig";
 import InputCmdCopy from "./components/InputCmdCopy";
 import Logo from "./components/Logo";
-import { CreateDevContainerConfigDto } from "@inizio/types/devContainerConfig";
+import { CreateDevContainerConfigDto } from "@inizio/cli/src/types/devContainerConfig";
 import { images } from "@inizio/cli/src/assets/list-images";
 
 function App() {

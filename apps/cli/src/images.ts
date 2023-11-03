@@ -1,4 +1,4 @@
-import { DevContainerImage } from '@inizio/types/devContainerImage';
+import { DevContainerImage } from './types/devContainerImage';
 import { images } from './assets/list-images';
 
 export function findDevContainerImage(name: string): DevContainerImage {

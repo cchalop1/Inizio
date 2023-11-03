@@ -1,4 +1,4 @@
-import { DevcontainerService } from '@inizio/types/types';
+import { DevcontainerService } from './types/types';
 import { services } from './assets/list-services';
 
 export function listServicesByServiceNames(servicesToKeep: string[]): DevcontainerService[] {

@@ -1,6 +1,6 @@
 import Checkbox from "../ui/Checkbox";
-import { services } from "@inizio/assets/src/list-services";
-import { images } from "@inizio/assets/src/list-images";
+import { services } from "@inizio/cli/src/assets/list-services";
+import { images } from "@inizio/cli/src/assets/list-images";
 import SubTitle from "../ui/SubTitle";
 import { CreateDevContainerConfigDto } from "@inizio/types/devContainerConfig";
 

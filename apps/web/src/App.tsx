@@ -3,7 +3,7 @@ import FormCreateDevContainerConfig from "./components/FormCreateDevContainerCon
 import InputCmdCopy from "./components/InputCmdCopy";
 import Logo from "./components/Logo";
 import { CreateDevContainerConfigDto } from "@inizio/types/devContainerConfig";
-import { images } from "@inizio/assets/src/list-images";
+import { images } from "@inizio/cli/src/assets/list-images";
 
 function App() {
   const [configDevContainer, setConfigDevContainer] =

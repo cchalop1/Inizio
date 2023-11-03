@@ -10,9 +10,6 @@ importers:
 
   apps/cli:
     dependencies:
-      '@inizio/assets':
-        specifier: workspace:*
-        version: link:../../packages/assets
       '@inizio/types':
         specifier: workspace:*
         version: link:../../packages/types
@@ -53,9 +50,9 @@ importers:
 
   apps/web:
     dependencies:
-      '@inizio/assets':
+      '@inizio/cli':
         specifier: workspace:*
-        version: link:../../packages/assets
+        version: link:../cli
       '@inizio/types':
         specifier: workspace:*
         version: link:../../packages/types
@@ -105,16 +102,6 @@ importers:
       vite:
         specifier: ^4.4.5
         version: 4.5.0
-
-  packages/assets:
-    dependencies:
-      '@inizio/types':
-        specifier: workspace:*
-        version: link:../types
-    devDependencies:
-      typescript:
-        specifier: ^5.2.2
-        version: 5.2.2
 
   packages/types: {}
 

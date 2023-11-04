@@ -1,6 +1,6 @@
 {
   "name": "@cchalop1/inizio",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "",
   "bin": "./dist/index.js",
   "repository": {

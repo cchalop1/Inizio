@@ -32,7 +32,6 @@ export function generateDockerComposeConfig(config: CreateDevContainerConfigDto)
     devContainerImage = findDevContainerImage(config.devContainerImage);
   }
 
-  // TODO: check is Dockerfile is present
   return {
     version: '3.8',
     services: {

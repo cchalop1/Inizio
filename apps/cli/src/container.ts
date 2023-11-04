@@ -39,7 +39,7 @@ export function generateDockerComposeConfig(config: CreateDevContainerConfigDto)
       ['devcontainer']: {
         command: 'sleep infinity',
         build: config.devContainerImage ? undefined : { context: '..', dockerfile: 'Dockerfile' },
-        image: config.devContainerImage ? devContainerImage?.icon : undefined,
+        image: config.devContainerImage ? devContainerImage?.image : undefined,
         volumes: ['../..:/workspaces:cached'],
         env_file: ['.env'],
       },

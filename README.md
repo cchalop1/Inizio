@@ -48,11 +48,3 @@ npx @cchalop1/inizio --devContainerImage node -s postgres
 ## Contributing
 
 We welcome contributions to Inizio! If you're interested in helping improve this tool, please feel free to submit issues or pull requests on our GitHub repository.
-
-## License
-
-Inizio is open-source software licensed under the MIT license.
-
----
-
-This template provides a starting point for your README. You might want to add more sections such as a detailed 'Contribution Guide', 'Code of Conduct', or 'Acknowledgments' depending on the governance and community engagement strategy for your project.

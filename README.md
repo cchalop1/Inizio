@@ -2,6 +2,8 @@
 
 Welcome to Inizio, an open-source tool designed to streamline the process of generating development container configurations for your projects. Inizio simplifies setting up a development environment with support for various databases and the option to use a custom Dockerfile, making it easier for developers to get started with containerized project environments.
 
+![Screen web](https://raw.githubusercontent.com/cchalop1/Inizio/main/assets/web.png)
+
 ## Features
 
 - Generate development container configurations with a simple command.
